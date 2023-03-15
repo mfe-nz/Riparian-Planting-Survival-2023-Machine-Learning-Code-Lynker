@@ -134,7 +134,7 @@ With specified input directory, output directory locations, and model file:
     ![Model training flowchart](img/ModelTrainingFlowchart.png)
 
 ### Data preparation
-* The training process expects data to be in image ships of size 256x256 pixels (defined by the HEIGHT and WIDTH variables in the config.py, file), have 4-bands (RGBI) and the data should be structured in an RCNN format.
+* The training process expects data to be in image chips of size 256x256 pixels (defined by the HEIGHT and WIDTH variables in the config.py, file), have 4-bands (RGBI) and the data should be structured in an RCNN format.
 * This is easily achieved using the "Export Training Data for Deep Learning" tool in the ArcGIS Pro Analysis->Tools menu.
 * First prepare your 4-band input imagery.
 * Prepare your example landcover segmentation. The following tools may be useful when segmenting the image prior to manual classification of landcover:
