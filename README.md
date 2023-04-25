@@ -1,5 +1,5 @@
 # Riparian Planting Segmentation model
-This repository contains code to train and run a convolutional neural network model for segmenting 4-band Maxar imagery into classes relevent to monitoring Riparian planting.  
+This repository contains code to train and run a convolutional neural network model for segmenting 4-band Maxar imagery into classes relevant to monitoring Riparian planting.  
 The code and model contained here were developed by Lynker Analytics Ltd and Pattle Dalamore Partners Ltd (PDP) for the Ministry for the Environment, Manatū Mō Te Taiao.
 
 ## Contents
@@ -80,7 +80,7 @@ Model inference expects there to be a trained model file in the models/DeepLab/ 
 		* Each channel 0-6 will have a probability value for the given channel per pixel.
 		* The sum over all channels per pixel will be 1.
 		* The index of the highest valued channel per pixel in the probability raster should match the integer value at that pixel in the corresponding *_class.tif raster
-	* the *_class.tif raster will be smallest and easiest to work with. You can load this into a desktop GIS appplication for viewing. 
+	* the *_class.tif raster will be smallest and easiest to work with. You can load this into a desktop GIS application for viewing. 
 	* the probability raster allows you to see probability by class, allowing more detailed analysis and reweighting of classes.
 
 ### How to run inference:
