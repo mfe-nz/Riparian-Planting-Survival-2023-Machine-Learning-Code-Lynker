@@ -1,6 +1,10 @@
 # Riparian Planting Segmentation model
 This repository contains code to train and run a convolutional neural network model for segmenting 4-band Maxar imagery into classes relevant to monitoring Riparian planting.  
+
 The code and model contained here were developed by Lynker Analytics Ltd and Pattle Dalamore Partners Ltd (PDP) for the Ministry for the Environment, Manatū Mō Te Taiao.
+
+Technical Memo: Riparian Planting Survival Assessment (2023)
+https://environment.govt.nz/publications/technical-memo-riparian-planting-survival-assessment/
 
 ## Contents
 1.  [Environment](#environment)  
